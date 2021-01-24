@@ -5,3 +5,46 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+
+* {
+    margin: 0 auto;
+}
+
+.mainBeer {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainBeer img {
+    width: 300px;
+    height: 350px;
+    margin-top: 50px;
+}
+
+.mainBeer a {
+    text-decoration: none;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #101213;
+    font-weight: 500;
+    color: rgb(177, 173, 173);
+    text-transform: uppercase;
+    border-radius: 2px;
+}
+
+.mainBeer a:hover {
+    color: #fff;
+    background-color: #111;
+    transition: 0.3s ease-in;
+}
+
+.index-buttons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.nav-item {
+    text-transform: uppercase;
+    font-weight: 700;
+}
